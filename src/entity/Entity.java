@@ -95,6 +95,7 @@ public abstract class Entity {
         if (this.type == 2 && contactPlayer) {
             if (!gp.player.invincible) {
                 // we can give damage
+                gp.playSE(6);
                 gp.player.life -= 1;
                 gp.player.invincible = true;
             }
@@ -212,6 +213,10 @@ public abstract class Entity {
                     }
                     break;
             }
+
+            // Monster Health bar
+            g2.setColor(new Color(255, 0, 30));
+
             if (invincible) {
                 g2.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 0.4f));
             }

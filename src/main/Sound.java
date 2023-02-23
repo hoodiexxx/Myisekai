@@ -13,10 +13,12 @@ public class Sound {
     public Sound() {
         soundURL[0] = getClass().getResource("/sound/frozen_winter.wav");
         soundURL[1] = getClass().getResource("/sound/powerup.wav");
-        soundURL[2] = getClass().getResource("/sound/Jump 1.wav");
+        soundURL[2] = getClass().getResource("/sound/swingweapon.wav");
         soundURL[3] = getClass().getResource("/sound/Select 1.wav");
         soundURL[4] = getClass().getResource("/sound/Text 1.wav");
         soundURL[5] = getClass().getResource("/sound/Suck 1.wav");
+        soundURL[6] = getClass().getResource("/sound/receivedamage.wav");
+        soundURL[7] = getClass().getResource("/sound/hitmonster.wav");
 
     }
 
