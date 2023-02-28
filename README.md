@@ -1,2 +1,2 @@
 # Myisekai
-It is a on-going JRPG game.
+It is an ongoing JRPG game.
